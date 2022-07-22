@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Gantari:wght@500;700&display=swap');
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. General Styles
+2. Table Styles
+3. Form Styles
+4. Class Styles
+-------------------------------------------------------------------*/
+
+/* 1. General Styles */
+body {
+  font-size:16px;
+}
+body,h1 {
+  font-family: 'Gantari', sans-serif;
+}
+h2 {
+  font-weight: 700;
+  color: #5EB1BF;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+h3 {
+  font-weight: 700;
+}
+a, a:active, a:visited  {
+  background-color:#54F2F2 ;
+  padding: 0.5em;
+  text-decoration: none;
+}
+a:hover {
+  background-color: #F4E04D;
+}
+hr {
+  width:45%;border:5px solid #F4E04D
+}
+ul {
+  list-style-type: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* 2. Table Styles */
+table {
+  width: 100%;
+  margin-bottom: 40px;
+}
+td img, 
+th img {
+  margin: 0;
+  padding: 0;
+}
+th {
+  text-align: center;
+  white-space: nowrap;
+  background-color: #54F2F2;
+}
+tr:nth-child(odd) {
+  background-color: #D3D3D3;
+}
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+/* 3. Form Styles */
+label {
+  display: block;
+  margin: 0 0 10px 0;
+  text-align: left;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 14px;
+  padding: 5px;
+  width: 100%;
+  margin: 0 0 10px 0;
+  box-sizing: border-box;
+  border-radius: 0;
+}
+textarea {
+  border-radius: 0;
+  font-size: 14px;
+  padding: 5px;
+  width: 100%;
+  margin: 0 0 10px 0;
+  box-sizing: border-box;
+}
+input {
+  border-radius: 0;
+  font-size: 14px;
+  padding: 5px;
+  width: 100%;
+  margin: 0 0 10px 0;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  border: 0;
+  background-color: #5EB1BF;
+  padding: 10px 10px;
+  font-size: 110%;
+  margin-top: 10px;
+}
+
+/* 4. Class Styles */
+.sidebar {
+  z-index:3;width:300px;font-weight:bold;background-color: #54F2F2;
+}
+.closenav {
+  width:100%;font-size:22px;
+}
+.content-container {
+  margin-left:340px;margin-right:40px
+}
